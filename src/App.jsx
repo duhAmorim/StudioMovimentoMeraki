@@ -30,33 +30,33 @@ const navLinks = [
 const painCards = [
   {
     image: '/Para vc que/Dores.jpeg',
-    alt: 'Alívio de dores',
-    text: 'Sente dores, tensões ou desconfortos no dia a dia',
+    alt: 'Evolução',
+    text: 'Não importa de onde voçê começa. O importante é perceber até onde consegue chegar.',
   },
   {
     image: '/Para vc que/Postura.jpeg',
-    alt: 'Melhora de postura',
-    text: 'Quer melhorar postura, mobilidade e consciência corporal',
+    alt: 'Exclusividade',
+    text: 'Turmas de até 3 alunos para que você tenha atenção de verdade durante a aula.',
   },
   {
     image: '/Para vc que/Atividade segura.jpg',
-    alt: 'Atividade segura',
-    text: 'Busca uma atividade física mais segura e orientada',
+    alt: 'Personalização',
+    text: 'Seu treino é pensado para você, respeitando seu momento, seu nível e seus objetivos.',
+  },
+  {
+    image: '/Para vc que/ambiente.jpeg',
+    alt: 'Desafio',
+    text: 'A cada fase, novos exercícios e desafios para você sair da zona de conforto.',
   },
   {
     image: '/Para vc que/Constancia.jpg',
     alt: 'Constância',
-    text: 'Tem dificuldade de manter constância',
-  },
-  {
-    image: '/Para vc que/ambiente.jpeg',
-    alt: 'Ambiente acolhedor',
-    text: 'Prefere um ambiente acolhedor, sem turmas cheias',
+    text: 'Uma rotina de movimento que seja possivel manter e que faça sentido para sua vida.',
   },
   {
     image: '/Para vc que/Rotina.jpg',
-    alt: 'Flexibilidade',
-    text: 'Quer se cuidar, mas precisa de flexibilidade na rotina',
+    alt: 'Pertencimento',
+    text: 'Um espaço onde você é conhecido pelo nome, acompanhado de perto e faz parte da evolução do grupo.',
   },
 ];
 
@@ -64,14 +64,14 @@ const formats = [
   {
     image: '/Presencial.jpg',
     alt: 'Pilates Presencial',
-    title: 'Pilates presencial no estúdio',
-    body: 'Ideal para quem busca acompanhamento próximo, correção em tempo real e uma experiência mais completa com aparelhos e acessórios.',
+    title: 'Pilates presencial no Meraki',
+    body: 'Para quem gosta de sair de casa, se desconectar da rotina e ter um momento dedicado ao próprio corpo. Em um ambiente acolhedor e exclusivo, você se movimenta, aprende e evolui com acompanhamento próximo.',
     items: [
-      'turmas reduzidas de até 3 alunos;',
-      'orientação individualizada;',
-      'correção de postura durante a aula;',
-      'ambiente climatizado e acolhedor;',
-      'aparelhos e acessórios para uma prática completa.',
+      'Turmas de até 3 alunos',
+      'Exercícios adaptados ao seu nível e objetivos',
+      'Acompanhamento próximo durante toda a aula',
+      'Aparelhos e acessórios para uma experiência completa',
+      'Evolução planejada e acompanhamento individualizado',
     ],
     cta: 'Quero fazer Pilates presencial',
     href: 'https://wa.me/5511983612385?text=Ol%C3%A1!%20Quero%20agendar%20minha%20aula%20experimental%20presencial%20no%20Movimento%20Meraki.',
@@ -79,14 +79,14 @@ const formats = [
   {
     image: '/online.jpg',
     alt: 'Meraki Conecta Online',
-    title: 'Meraki Conecta: Pilates online ao vivo',
-    body: 'Para quem tem rotina corrida, mora longe está fora do Brasil ou prefere treinar no conforto de casa, sem abrir mão de acompanhamento profissional.',
+    title: 'Meraki Conecta: Pilates Online ao Vivo',
+    body: 'Para quem tem uma rotina dinâmica, viaja com frequência ou simplesmente prefere a praticidade de treinar em casa. Aulas ao vivo, com orientação profissional e atenção de verdade, para você não precisar abrir mão de se cuidar.',
     items: [
-      'aulas online ao vivo;',
-      'acompanhamento em tempo real;',
-      'orientação profissional;',
-      'flexibilidade para encaixar na rotina;',
-      'a essência do Meraki onde você estiver.',
+      'Aulas online ao vivo',
+      'Acompanhamento e correções em tempo real',
+      'Orientação profissional individualizada',
+      'Flexibilidade para encaixar o movimento na sua rotina',
+      'A experiência Meraki, onde você estiver',
     ],
     cta: 'Quero conhecer o Pilates online',
     href: 'https://wa.me/5511983612385?text=Ol%C3%A1!%20Quero%20conhecer%20o%20Pilates%20online%20do%20Meraki%20Conecta.',
@@ -95,20 +95,24 @@ const formats = [
 
 const methodSteps = [
   [
-    'Entendemos seu momento',
-    'Na aula experimental, conversamos sobre sua rotina, seus objetivos e suas necessidades.',
+    'Conhecemos você',
+    'Antes de começar, entendemos sua rotina, seus objetivos e o que você busca para o seu corpo e para a sua vida.',
   ],
   [
-    'Orientamos sua prática',
-    'Durante a aula, você recebe instruções claras para realizar os movimentos com mais segurança.',
+    'Personalizamos sua experiência',
+    'Cada exercício, desafio e orientação é pensado de acordo com o seu momento, seu nível e a forma como você evolui.',
   ],
   [
-    'Ajustamos sua evolução',
-    'As aulas são adaptadas conforme seu corpo responde, sempre com atenção e cuidado.',
+    'Acompanhamos de perto',
+    'Durante a aula, você recebe atenção, correções e estímulos para se movimentar com mais consciência, qualidade e segurança.',
+  ],
+  [
+    'Evoluímos junto com você',
+    'Seu treino acompanha sua evolução. Novos movimentos, novos desafios e novas conquistas fazem parte da sua jornada.',
   ],
   [
     'Criamos constância',
-    'O objetivo é que o Pilates faça parte da sua vida de forma prazerosa e possível.',
+    'Porque acreditamos que o melhor resultado não está em fazer muito por pouco tempo, mas em encontrar uma forma de se movimentar que faça sentido para você e que queira manter na sua vida.',
   ],
 ];
 
@@ -530,15 +534,10 @@ function PainPoints() {
     <section className="pain-points section-padding bg-lavender" id="dores">
       <div className="container">
         <div className="section-title text-center">
-          <h2>Seu corpo está pedindo movimento, mas com cuidado de verdade?</h2>
-          <p>
-            Sente o corpo rígido e cansado, mas não sabe por onde começar? No
-            Movimento Meraki, o Pilates é conduzido com técnica e presença para
-            você evoluir no seu ritmo, com segurança e sem pressa.
-          </p>
+          <h2>Por que o Meraki combina com você?</h2>
+          
         </div>
         <div className="pain-cards-container mt-4">
-          <h3 className="text-center mb-4">Aqui é para você que:</h3>
           <div className="grid grid-3 pain-cards-grid">
             {painCards.map((card) => (
               <div className="pain-card" key={card.text}>
@@ -596,8 +595,7 @@ function Formats() {
         <div className="section-footer text-center mt-4">
           <p>
             <strong>
-              Não existe o melhor formato. Existe o formato que você consegue
-              manter. E resultado vem da constância.
+              Escolha a experiência que combina com a sua rotina e descubra uma nova forma de cuidar de você.
             </strong>
           </p>
         </div>
@@ -622,17 +620,12 @@ function Method({ timelineRef, visible }) {
             <div className="section-title text-left" style={{ marginBottom: 40 }}>
               <h2 className="main-method-title">A metodologia Meraki:</h2>
               <p className="method-subtitle">
-                Cuidado, presença e evolução no seu ritmo
+                Um jeito diferente de se movimentar, evoluir e cuidar de você.
               </p>
               <div className="method-description mt-4">
                 <p>
-                  Cada aula é conduzida com olhar atento para a individualidade
-                  de cada aluno. Antes de pensar em intensidade, pensamos em
-                  consciência, alinhamento, controle e segurança.
-                </p>
-                <p>
-                  A proposta é que você evolua de forma realista, respeitando
-                  seus limites e criando uma relação mais leve com o movimento.
+                  No Meraki, nenhuma aula é igual à outra.
+Cada aluno tem uma história, um objetivo e um ritmo. Por isso, nossa metodologia une atenção individualizada, orientação profissional e evolução contínua para que você perceba seu progresso e construa uma relação duradoura com o movimento.
                 </p>
               </div>
             </div>
@@ -751,6 +744,21 @@ function Team({ selectedId, selectedMember, onSelect }) {
           </p>
         </div>
         <div className="team-interactive-container">
+          <div className="team-nav">
+            <div className="team-nav-track" id="team-nav-track">
+              {Object.entries(teamData).map(([id, member]) => (
+                <button
+                  className={`team-bubble ${id === selectedId ? 'active' : ''}`}
+                  key={id}
+                  type="button"
+                  onClick={() => onSelect(id)}
+                >
+                  <img src={member.image} alt={member.name} />
+                  <span>{member.name.split(' ')[0]}</span>
+                </button>
+              ))}
+            </div>
+          </div>
           <div className="team-main-display">
             <div className="team-image-wrapper">
               <div className="team-blob" />
@@ -779,21 +787,6 @@ function Team({ selectedId, selectedMember, onSelect }) {
                   </p>
                 )}
               </div>
-            </div>
-          </div>
-          <div className="team-nav">
-            <div className="team-nav-track" id="team-nav-track">
-              {Object.entries(teamData).map(([id, member]) => (
-                <button
-                  className={`team-bubble ${id === selectedId ? 'active' : ''}`}
-                  key={id}
-                  type="button"
-                  onClick={() => onSelect(id)}
-                >
-                  <img src={member.image} alt={member.name} />
-                  <span>{member.name.split(' ')[0]}</span>
-                </button>
-              ))}
             </div>
           </div>
         </div>
