@@ -24,7 +24,7 @@ const navLinks = [
   ['#metodo', 'Método'],
   ['#galeria', 'Espaço'],
   ['#sobre', 'Sobre'],
-  ['#faq', 'FAQ'],
+  ['#faq', 'Dúvidas'],
 ];
 
 const painCards = [
@@ -80,7 +80,7 @@ const formats = [
     image: '/online.jpg',
     alt: 'Meraki Conecta Online',
     title: 'Meraki Conecta: Pilates online ao vivo',
-    body: 'Para quem tem rotina corrida, mora longe ou prefere treinar no conforto de casa, sem abrir mão de acompanhamento profissional.',
+    body: 'Para quem tem rotina corrida, mora longe está fora do Brasil ou prefere treinar no conforto de casa, sem abrir mão de acompanhamento profissional.',
     items: [
       'aulas online ao vivo;',
       'acompanhamento em tempo real;',
@@ -241,6 +241,10 @@ const faqItems = [
   [
     'Como agendar uma aula?',
     'O agendamento pode ser feito pelo WhatsApp do Movimento Meraki: (11) 98361-2385.',
+  ],
+  [
+    'Formas de pagamento?',
+    'O Movimento Meraki aceita pagamento via Pix, cartão de crédito, cartão de débito, dinheiro, Wellhub e TotalPass. Consulte sobre planos e pacotes de aulas.',
   ],
 ];
 
@@ -430,7 +434,7 @@ function App() {
             <p className="subheadline">
               Aulas <strong>presenciais e online ao vivo</strong>, com
               acompanhamento próximo, turmas reduzidas e uma metodologia que
-              respeita o seu ritmo, seu corpo e seus objetivos.
+              respeita o seu ritmo e seus objetivos.
             </p>
             <div className="hero-ctas">
               <a
@@ -444,7 +448,7 @@ function App() {
               </a>
             </div>
             <p className="microcopy">
-              Atendimento presencial em Jardim Avelino, São Paulo.
+              Atendimento presencial no Jardim Avelino - São Paulo e online para o mundo.
             </p>
           </div>
         </div>
@@ -491,7 +495,7 @@ function App() {
 
 function SocialProof() {
   const items = [
-    [Star, '5 estrelas no Google', 'Mais de 93 avaliações de alunos reais'],
+    [Star, '5 estrelas no Google', 'Mais de 90 avaliações de alunos reais'],
     [Users, 'Turmas de até 3 alunos', 'Mais atenção, correção e cuidado'],
     [HomeIcon, 'Aulas personalizadas', 'Presencial ou online, na sua rotina'],
     [
@@ -1115,7 +1119,7 @@ function Footer({ handleInternalLink }) {
             className="footer-logo"
           />
           <p className="footer-desc">
-            Referência em Pilates em Jardim Avelino. Saúde, bem-estar e
+            Referência em Pilates no Jardim Avelino. Saúde, bem-estar e
             atendimento personalizado para transformar sua vida.
           </p>
         </div>
@@ -1137,9 +1141,6 @@ function Footer({ handleInternalLink }) {
         <div className="footer-column">
           <h4 className="footer-title">CONTATO</h4>
           <div className="contact-info">
-            <p>
-              <Mail /> contato@movimentomeraki.com.br
-            </p>
             <p>
               <Phone /> (11) 98361-2385
             </p>
