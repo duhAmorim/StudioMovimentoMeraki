@@ -1646,6 +1646,7 @@ img {
 }
 
 .team-main-display {
+    margin: 10px;
     display: grid;
     grid-template-columns: 0.8fr 1.2fr;
     gap: 80px;
@@ -1729,7 +1730,7 @@ img {
 .team-nav {
     display: flex;
     justify-content: center;
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-top: 5px solid rgba(255, 255, 255, 0.1);
     padding-top: 50px;
 }
 
@@ -1800,6 +1801,7 @@ img {
 
 @media (max-width: 992px) {
     .team-main-display {
+        margin: 10px;
         grid-template-columns: 1fr;
         gap: 40px;
         text-align: center;
