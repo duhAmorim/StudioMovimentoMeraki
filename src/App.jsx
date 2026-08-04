@@ -117,12 +117,10 @@ const methodSteps = [
 ];
 
 const galleryImages = [
-  '/Galeria/Recrie_essa_imagem_202604271857.jpeg',
-  '/Galeria/Recrie_essa_imagem_202604271936 (1).jpeg',
-  '/Galeria/Recrie_essa_imagem_202604271936.jpeg',
-  '/Galeria/Recrie_essa_imagem_202604271937.jpeg',
-  '/Galeria/Recrie_essa_imagem_202604271946.jpeg',
-  '/Galeria/Recrie_essa_imagem_202604271947.jpeg',
+  '/Galeria/ambiente.jpeg',
+  '/Galeria/ambiente2.jpg',
+  '/Galeria/ambiente3.jpg',
+  '/Galeria/ambiente4.jpg',
 ];
 
 const teamData = {
