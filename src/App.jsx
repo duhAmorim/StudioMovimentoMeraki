@@ -539,9 +539,6 @@ function PainPoints() {
           <div className="grid grid-3 pain-cards-grid">
             {painCards.map((card) => (
               <div className="pain-card" key={card.text}>
-                <div className="pain-card-image">
-                  <img src={card.image} alt={card.alt} />
-                </div>
                 <div className="pain-card-content">
                   <p>{card.text}</p>
                 </div>
@@ -568,7 +565,7 @@ function Formats() {
         <div className="grid grid-2">
           {formats.map((format) => (
             <div className="card format-card" key={format.title}>
-              <img src={format.image} alt={format.alt} className="format-img" />
+              
               <div className="format-content">
                 <h3>{format.title}</h3>
                 <p>{format.body}</p>
