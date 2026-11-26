@@ -176,20 +176,6 @@ const teamData = {
     ],
     quote: '',
   },
-  mariana: {
-    name: 'Mariana Matos',
-    role: 'Fisioterapeuta',
-    image: '/Equipe/Melhore_a_imagem_202604281735 (1).jpeg',
-    bio: [
-      'Fisioterapeuta pela Universidade Municipal de São Caetano do Sul',
-      'Pós Graduada em Reabilitação Funcional pela USP',
-      'Pós Graduada em Fisioterapia Pediátrica e Neonatal pela FMABC',
-      'Formada em Pilates pela Meta Pilates',
-      'Cursos em desenvolvimento motor infantil, fisioterapia respiratória e assimetrias cranianas',
-      '4 anos de experiência no Pilates',
-    ],
-    quote: '',
-  },
 };
 
 const testimonials = [

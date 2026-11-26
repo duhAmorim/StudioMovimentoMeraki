@@ -1,0 +1,25 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Iniciar site local (Vite)",
+			"type": "shell",
+			"command": "npm run dev",
+			"isBackground": true,
+			"problemMatcher": [
+				"$vite"
+			],
+			"group": "build"
+		},
+		{
+			"label": "Iniciar site local (Vite)",
+			"type": "shell",
+			"command": "npm.cmd run dev",
+			"isBackground": true,
+			"problemMatcher": [
+				"$vite"
+			],
+			"group": "build"
+		}
+	]
+}
